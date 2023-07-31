@@ -20,13 +20,15 @@
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
 const { genresDatabase } = require('./src/initDB.js');
+require('dotenv').config()
+const {PORT} = process.env
 
 // Syncing all the models at once.
-server.listen(3001, () => {
+server.listen(PORT, () => {
   conn.sync({ force: false}).then(() => {
     genresDatabase()
       
-      console.log('%s listening at 3001'); // eslint-disable-line no-console
+      console.log('%s listening at ', PORT); // eslint-disable-line no-console
     ;
   });
 })
