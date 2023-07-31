@@ -1,0 +1,87 @@
+.detail img{
+    width: 700px;
+}
+.detail{
+    color: aliceblue;
+    z-index: 1
+}
+
+.parrafo{
+    margin: 50px auto;
+    width: 800px;
+}
+
+.espacio{
+    height: 70px;
+}
+.detail h2{
+    font-size: 70px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+  }
+  .contenedor h3{
+    color: rgb(255, 81, 0);
+  }
+  
+  .platforms {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 66, 66, 0.364);
+    width: 200px;
+    height:max-content;
+    position: relative;
+    margin-top: 50px;
+    margin: 0 50px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .generos {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 66, 66, 0.364);
+    width: 200px;
+    height: max-content;
+    position: relative;
+    margin-top: 50px;
+    margin: 0 50px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating h3{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+        
+      
+  }
+
+.detail{
+    width: 1500px;
+    background-color: #1D3557;
+    margin:auto
+}
+.fondo{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-oscuro-elegante-textura_1108-171.jpg?w=826&t=st=1687364265~exp=1687364865~hmac=b89ffa224438f5bf67ed9e8626218eb04e3e372e39bb856c14e5b4fe7fa76e81);
+    background-size:1000px;
+    background-attachment: fixed;
+}

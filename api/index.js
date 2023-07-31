@@ -23,7 +23,7 @@ const { genresDatabase } = require('./src/initDB.js');
 
 // Syncing all the models at once.
 server.listen(3001, () => {
-  conn.sync({ force: false }).then(() => {
+  conn.sync({ force: false}).then(() => {
     genresDatabase()
       
       console.log('%s listening at 3001'); // eslint-disable-line no-console

@@ -1,0 +1,182 @@
+.espacio{
+height: 70px;
+}
+.join p{
+    display: inline;
+    background-color: rgba(99, 99, 99, 0.44);
+color: red;
+}
+.join h4{
+    display: inline;
+    font-size: 20px;
+}
+.join {
+margin: 50px;
+}
+.join{
+    color: aliceblue;
+}
+.botones{
+    width: 600px;
+    margin: auto;
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+  }
+
+.boton {
+    
+    width: 150px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .boton:hover {
+    background-color: #0056b3;
+  }
+  
+  .botonactive {
+    background-color: #e5622a;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .botonactive:hover {
+    background-color: #873a19;
+  }
+
+  .checkboxLabel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .checkboxInput {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .checkboxCustom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .checkboxCustom::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 2px;
+    opacity: 0;
+    transform: scale(1);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  
+  .checkboxInput:checked + .checkboxCustom::before {
+    margin: auto ;
+
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .diviciones{
+    margin: 20px;
+  }
+
+ 
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+ 
+  input[type="number"] {
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  
+  input[type="date"] {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .plats{
+    width: 200px;
+    margin: auto;
+  }
+
+  .submit {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .submit:hover{
+    background-color: #952f03;
+  }
+  .submit span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .submit span:after {
+  content: '\00bb'; 
+  position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .submit:hover span {
+    padding-right: 25px;
+  }
+  .submit:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .welcome{
+    color: aliceblue;
+  }

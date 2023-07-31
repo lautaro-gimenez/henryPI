@@ -1,0 +1,95 @@
+.nav{
+    padding: 0px;
+    background-color: #A8DADC;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    ;
+    z-index: 9999;
+}
+
+
+
+.navlink {
+    
+    display: block;
+    padding: 5px 40px;
+    color: #333; 
+    text-decoration: none; 
+    background-color: #f0f0f0; 
+    text-align: left;
+    line-height: 40px; 
+    white-space: nowrap; 
+    float: left;
+    font-size: 30px;
+  }
+  
+  .navlink:hover {
+    background-color: #ccc;
+  }
+  
+  .homeButon:hover {
+    background-color: #ccc;
+  }
+  
+  .navlink.active {
+    background-color: #666;
+    color: #fff;
+  }
+
+
+  .navlinkSube{
+     
+    display: block;
+    padding: 5px 40px;
+    color: #ffffff; 
+    text-decoration: none; 
+    background-color: #e26e1a; 
+    text-align: left;
+    line-height: 40px; 
+    white-space: nowrap; 
+    float:right;
+    font-size: 30px;
+  }
+  .navlinkSube:hover {
+    background-color: #a44404;
+  }
+
+  .navBuscar{
+    height: 30px;
+    display: inline-block;
+    padding: 0px 25px;
+    color: #333; 
+    text-decoration: none; 
+    background-color: #f0f0f0; 
+    text-align: left;
+    line-height: 25px; 
+    margin: 10px 0px;
+    
+    font-size: 20px;
+  }
+  .navBuscar:hover {
+    background-color: #ccc;
+  }
+  .butonBuscar{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    
+  }
+  .navBar{
+    display:inline-flex;
+    height: 32px;
+    font-size: 20px;
+    margin: 2px 0px;
+  }
+  
+
+ 

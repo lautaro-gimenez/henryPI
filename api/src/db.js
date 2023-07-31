@@ -33,18 +33,18 @@ videogame(sequelize)
 genre(sequelize)
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { Videogames, Genres } = sequelize.models;
+const { Videogames, Genress } = sequelize.models;
 
 
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);
-Videogames.belongsToMany(Genres,{through: 'juegogenero'});
-Genres.belongsToMany(Videogames, {through: 'juegogenero' });
+Videogames.belongsToMany(Genress,{through: 'juegogenero'});
+Genress.belongsToMany(Videogames, {through: 'juegogenero' });
 
 
 module.exports = {
   Videogames,
-  Genres,
+  Genress,
   // para poder importar los modelos así: const { Product, User } = require('./db.js');
   conn: sequelize,     // para importart la conexión { conn } = require('./db.js');
 };

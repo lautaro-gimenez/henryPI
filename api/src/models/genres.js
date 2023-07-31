@@ -2,15 +2,18 @@ const { DataTypes } = require("sequelize")
 
 
 module.exports=(sequelize)=>{
-    sequelize.define('genres',{
+    sequelize.define('genress',{
         id:{
             type: DataTypes.INTEGER,
             primaryKey: true,
             allowNull: false,
         },
-        nombre:{
+        name:{
             type:DataTypes.STRING,
             allownull: false
         }
-    })
+        
+            
+          
+    },{timestamps: false,})
 }

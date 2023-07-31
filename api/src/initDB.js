@@ -1,4 +1,4 @@
-const {Genres} =require('./db')
+const {Genress} =require('./db')
 const { Axios, default: axios } = require("axios");
 require('dotenv').config();
 
@@ -14,9 +14,9 @@ const genresDatabase= async ()=>{
                 throw Error('no existe')
             }
             
-            await Genres.findOrCreate({where:{
+            await Genress.findOrCreate({where:{
                 id:gener.id,
-                nombre: gener.name
+                name: gener.name
             }})
         } catch (error) {
             console.log(error)
