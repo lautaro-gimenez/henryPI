@@ -5,7 +5,7 @@ const path = require('path');
 const {
   DB_USER, DB_PASSWORD, DB_HOST,DB_NAME, DB_PORT
 } = process.env;
-console.log(DB_USER)
+
 const videogame = require('./models/Videogame')
 const genre = require('./models/genres')
 

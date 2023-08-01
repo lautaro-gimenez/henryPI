@@ -28,7 +28,7 @@ server.listen(port, () => {
   conn.sync({ force: false}).then(() => {
     genresDatabase()
       
-      console.log('%s listening at '+ port); // eslint-disable-line no-console
+      console.log('%s listening at '+ port); 
     ;
   });
 })
